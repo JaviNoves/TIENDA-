@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+	<title>Botones</title>
+	<link rel="stylesheet" type="text/css" href="./css/loginest.css">
+</head>
+<body>
+	<h1>Identificate</h1>
+	<div class="container">
+		<input type="radio" id="login" name="formulario" class="formulario-selector" checked>
+		<label for="login" class="entrar">Entrar</label>
+		<input type="radio" id="registro" name="formulario" class="formulario-selector">
+		<label for="registro" class="registrarse">Registrarse</label>
+		
+		<form class="formulario" id="login-form" method="post">
+			<label>Nombre de usuario:</label>
+			<input type="text" name="username">
+			<label>Contraseña:</label>
+			<input type="password" name="password">
+			<input type="submit" value="Enviar">
+		</form>
+		
+		<form class="formulario" id="registro-form" method="post">
+			<label>Nombre:</label>
+			<input type="text" name="nombre">
+			<label>Apellidos:</label>
+			<input type="text" name="apellidos">
+			<label>Dirección:</label>
+			<input type="text" name="direccion">
+			<label>Teléfono:</label>
+			<input type="text" name="telefono">
+			<label>Nombre de usuario:</label>
+			<input type="text" name="username">
+			<label>Contraseña:</label>
+			<input type="password" name="password">
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	<footer>
+		<p>&copy; 2023 GAMERS</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+body {
+	background-color: #f8f9fa;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin-bottom: 2rem;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+footer {
+	background-color: #ddd;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}

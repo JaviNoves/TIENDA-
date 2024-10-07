@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Estilos CSS para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos para los botones de opción */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.user-info {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user-info h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-info ul li {
+  margin-bottom: 5px;
+}
+
